@@ -11,6 +11,8 @@
 		D117726E2E0BC8F600D082F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117726D2E0BC8F600D082F9 /* ContentView.swift */; };
 		D11772702E0BC8F700D082F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D117726F2E0BC8F700D082F9 /* Assets.xcassets */; };
 		D11772732E0BC8F700D082F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11772722E0BC8F700D082F9 /* Preview Assets.xcassets */; };
+		D117727A2E0BC9F800D082F9 /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11772792E0BC9F800D082F9 /* CountdownTimerView.swift */; };
+		D117727C2E0BCA1300D082F9 /* CountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117727B2E0BCA1300D082F9 /* CountdownTimerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D117726D2E0BC8F600D082F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D117726F2E0BC8F700D082F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11772722E0BC8F700D082F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D11772792E0BC9F800D082F9 /* CountdownTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
+		D117727B2E0BCA1300D082F9 /* CountdownTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D117726D2E0BC8F600D082F9 /* ContentView.swift */,
 				D117726F2E0BC8F700D082F9 /* Assets.xcassets */,
 				D11772712E0BC8F700D082F9 /* Preview Content */,
+				D11772792E0BC9F800D082F9 /* CountdownTimerView.swift */,
+				D117727B2E0BCA1300D082F9 /* CountdownTimerViewModel.swift */,
 			);
 			path = CountdownTimerCombine;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				D117726E2E0BC8F600D082F9 /* ContentView.swift in Sources */,
 				D117726C2E0BC8F600D082F9 /* CountdownTimerCombineApp.swift in Sources */,
+				D117727C2E0BCA1300D082F9 /* CountdownTimerViewModel.swift in Sources */,
+				D117727A2E0BC9F800D082F9 /* CountdownTimerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

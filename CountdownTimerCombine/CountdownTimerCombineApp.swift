@@ -11,7 +11,7 @@ import SwiftUI
 struct CountdownTimerCombineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CountdownTimerView()
         }
     }
 }
